@@ -34,7 +34,7 @@ window.JOSY = {
     { id: 'f-iniciante', level: 'iniciante', title: 'Formação para quem está começando',
       blurb: 'Caminho para conhecer os fundamentos e iniciar a aprendizagem com acompanhamento.',
       areas: ['fundamentos', 'extensao'], modality: null, workload: null, nextClass: null, seats: null, price: null, certificate: null, checkoutUrl: null },
-    { id: 'f-aperfeicoamento', level: 'Aperfeiçoamento', title: 'Formação para quem já trabalha com unhas',
+    { id: 'f-aperfeicoamento', level: 'aperfeicoamento', title: 'Formação para quem já trabalha com unhas',
       blurb: 'Eleve seu nível profissional e aperfeiçoe suas habilidades com o curso de extensão de unhas, que foi desenvolvido com uma abordagem teórica e prática, a formação proporcioana desenvolvimento de habilidades essenciais para realizar extensões de unhas com melhor estrutura, resistência, acabamento e naturalidade. É indicada para manicures e profissionais da área da beleza que desejam aprender ou aperfeiçoar a execução das técnicas e oferecer serviços com qualidade.',
       areas: ['extensao', 'Extenção de unhas artificiais', 'nailart'], modality: null, workload: null, nextClass: null, seats: null, price: null, certificate: null, checkoutUrl: null },
     { id: 'f-especializacao', level: 'especializacao', title: 'Formação avançada e especialização',
