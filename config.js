@@ -1,7 +1,7 @@
 window.JOSY = {
   demo: false,
   educator: 'Josylene Santos',
-  experienceYears: + de 26,
+  experienceYears: 26,
   contact: {
     whatsapp: '5565993378198',                 // número com DDI+DDD, só dígitos
     whatsappDisplay: '65 9337-8198',          // como o número aparece escrito no site
