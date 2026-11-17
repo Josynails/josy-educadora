@@ -34,7 +34,7 @@ window.JOSY = {
     { id: 'f-iniciante', level: 'iniciante', title: 'Formação para quem está começando',
       blurb: 'Caminho para conhecer os fundamentos e iniciar a aprendizagem com acompanhamento.',
       areas: ['fundamentos', 'extensao'], modality: null, workload: null, nextClass: null, seats: null, price: null, certificate: null, checkoutUrl: null },
-    { id: 'f-aperfeicoamento', level: 'Aperfeiçoamento de técnicas de extenção de unhas artificiais', title: 'Formação para quem já trabalha com unhas',
+    { id: 'f-aperfeicoamento', level: 'Aperfeiçoamento', title: 'Formação para quem já trabalha com unhas',
       blurb: 'Eleve seu nível profissional aperfeiçoe suas habilidades em alengamento de Unhas.',
       areas: ['extensao', 'acabamento', 'nailart'], modality: null, workload: null, nextClass: null, seats: null, price: null, certificate: null, checkoutUrl: null },
     { id: 'f-especializacao', level: 'especializacao', title: 'Formação avançada e especialização',
