@@ -35,7 +35,7 @@ window.JOSY = {
       blurb: 'Caminho para conhecer os fundamentos e iniciar a aprendizagem com acompanhamento.',
       areas: ['fundamentos', 'extensao'], modality: null, workload: null, nextClass: null, seats: null, price: null, certificate: null, checkoutUrl: null },
     { id: 'f-aperfeicoamento', level: 'Aperfeiçoamento', title: 'Formação para quem já trabalha com unhas',
-      blurb: 'Eleve seu nível profissional aperfeiçoe suas habilidades em alengamento de Unhas.',
+      blurb: ' aperfeiçoamento Eleve seu nível profissional aperfeiçoe suas habilidades em alengamento de Unhas.',
       areas: ['extensao', 'acabamento', 'nailart'], modality: null, workload: null, nextClass: null, seats: null, price: null, certificate: null, checkoutUrl: null },
     { id: 'f-especializacao', level: 'especializacao', title: 'Formação avançada e especialização',
       blurb: 'Para profissionais interessadas em aprofundar uma técnica específica em nível avançado.',
