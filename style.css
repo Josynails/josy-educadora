@@ -208,6 +208,15 @@ ul,ol{list-style:none}
 .specs dd{text-align:right}
 .specs dd.tbc{color:var(--tx3);font-style:italic}
 .course .btn{margin-top:auto}
+.course__inc,.course__bonus{border-radius:16px;padding:14px 16px;margin:.6rem 0}
+.course__inc{background:rgba(140,120,100,.14)}
+.course__areas span{border-radius:18px}
+.course__bonus{background:linear-gradient(135deg,rgba(212,175,110,.28),rgba(212,175,110,.12));border:1px solid rgba(180,140,70,.45)}
+.course__inc b,.course__bonus b{display:block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:6px}
+.course__inc ul,.course__bonus ul{list-style:none;margin:0;padding:0;display:grid;gap:4px}
+.course__inc li,.course__bonus li{font-size:.9rem;padding-left:1.2em;position:relative}
+.course__inc li:before{content:"\2713";position:absolute;left:0}
+.course__bonus li:before{content:"\2726";position:absolute;left:0}
 .course__areas{display:flex;flex-wrap:wrap;gap:6px}
 .course__areas span{font-size:.7rem;color:var(--tx2);background:rgba(255,255,255,.06);padding:4px 10px;border-radius:99px}
 
