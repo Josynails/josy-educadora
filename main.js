@@ -325,7 +325,7 @@
     const dist = () => Math.max(0, row.scrollWidth - innerWidth);
     gsap.to(row, {
       x: () => -dist(), ease: 'none',
-      scrollTrigger: { trigger: '#techPin', pin: true, start: 'top top', end: () => '+=' + dist(), scrub: .7, invalidateOnRefresh: true, anticipatePin: 1 }
+      scrollTrigger: { trigger: '#techPin', pin: true, start: 'top top', end: () => '+=' + dist(), scrub: .7, invalidateOnRefresh: true, anticipatePin: 1, refreshPriority: 1 }
     });
     gsap.utils.toArray('.tcard img').forEach(img => gsap.fromTo(img, { scale: 1.18 }, { scale: 1, ease: 'none', scrollTrigger: { trigger: img.parentElement, containerAnimation: gsap.getTweensOf(row)[0], start: 'left 95%', end: 'left 30%', scrub: true } }));
   });
@@ -347,7 +347,7 @@
       let st = state();
       gsap.set(evoText, { opacity: 0, y: 30 });
       gsap.set(evoDia, { opacity: 0, transformPerspective: 900 });
-      const tl = gsap.timeline({ defaults: { ease: 'none' }, scrollTrigger: { trigger: evoPin, start: 'top top', end: '+=170%', pin: true, scrub: .6, invalidateOnRefresh: true, onRefresh: () => { st = state(); } } });
+      const tl = gsap.timeline({ defaults: { ease: 'none' }, scrollTrigger: { trigger: evoPin, start: 'top top', end: '+=170%', pin: true, scrub: .6, invalidateOnRefresh: true, refreshPriority: 2, onRefresh: () => { st = state(); } } });
       tl.fromTo(evoDia, { x: () => st.dx, y: () => st.dy, scale: () => st.s * .7, rotationY: -28, opacity: 0 }, { scale: () => st.s, opacity: 1, rotationY: 0, duration: .22 })
         .to(evoDia, { rotationY: 30, duration: .3 })
         .fromTo(evoSheen, { backgroundPosition: '160% 0' }, { backgroundPosition: '-60% 0', duration: .3 }, '<')
@@ -355,6 +355,8 @@
         .to(evoText, { opacity: 1, y: 0, duration: .22 }, '-=.12');
     });
   }
+  ScrollTrigger.sort();
   addEventListener('load', () => ScrollTrigger.refresh());
+  addEventListener('resize', () => ScrollTrigger.refresh());
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => ScrollTrigger.refresh());
 })();
