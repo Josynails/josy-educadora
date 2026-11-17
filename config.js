@@ -180,7 +180,7 @@ window.JOSY = {
     { img: 't08', caption: 'Extensão no molde F1', alt: 'Extensão de unhas no molde F1' },
     { img: 't15', caption: 'Esmalte em gel efeito magnético', alt: 'Esmaltação em gel efeito magnético' },
     { img: 't10', caption: 'Esmaltação efeito magnético', alt: 'Esmaltação efeito magnético' },
-    { img: 't13', caption: 'Técnica cuticulagem', alt: 'técnica de cuticulagem' },
+    { img: 't13', caption: 'Técnica de cuticulagem', alt: 'técnica de cuticulagem' },
     { img: 't06', caption: 'Esmaltação em gel', alt: ' Esmaltaçao em gel' },
     { img: 't02', caption: 'Molde F1 sanduíche', alt: 'Técnica de molde F1 sanduíche' }
   ],
