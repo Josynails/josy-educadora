@@ -90,7 +90,9 @@
         <div class="course__top"><span class="pill">${C.levels[c.level]}</span></div>
         <h3>${esc(c.title)}</h3>
         <p class="course__b">${esc(c.blurb)}</p>
-        <div class="course__areas">${c.areas.map(a => `<span>${esc(areaLabel(a))}</span>`).join('')}</div>
+        ${(c.includes && c.includes.length) ? `<div class="course__inc"><b>O que você aprende</b><ul>${c.includes.map(t => `<li>${esc(t)}</li>`).join('')}</ul></div>` : ''}
+        ${(c.bonus && c.bonus.length) ? `<div class="course__bonus"><b>✦ Bônus</b><ul>${c.bonus.map(t => `<li>${esc(t)}</li>`).join('')}</ul></div>` : ''}
+        ${(c.areas && c.areas.length) ? `<div class="course__areas">${c.areas.map(a => `<span>${esc(areaLabel(a))}</span>`).join('')}</div>` : ''}
         ${specs(c)}
         ${c.checkoutUrl
           ? `<a class="btn" href="${esc(c.checkoutUrl)}" target="_blank" rel="noopener">Fazer minha inscrição</a>`
