@@ -35,7 +35,7 @@ window.JOSY = {
       blurb: 'Caminho para conhecer os fundamentos e iniciar a aprendizagem com acompanhamento.',
       areas: ['fundamentos', 'extensao'], modality: null, workload: null, nextClass: null, seats: null, price: null, certificate: null, checkoutUrl: null },
     { id: 'f-aperfeicoamento', level: 'Aperfeiçoamento', title: 'Formação para quem já trabalha com unhas',
-      blurb: 'Eleve seu nível profissional aperfeiçoe suas habilidades em alongamento de Unhas. O curso de aperfeiçoamento de extensão de unhas artificiais foi desenvolvido para manicures e profissionais da área da beleza que desejam  aprimorar seus conhecimentos, aperfeiçoar a execução das técnicas e oferecer serviços com mais qualidade, segurança e excelência.',
+      blurb: 'Eleve seu nível profissional aperfeiçoe suas habilidades em alongamento de Unhas. O curso de aperfeiçoamento de extensão de unhas artificiais foi desenvolvido com uma abordagem teórica e prática, a formação proporcioana desenvolvimento de habilidades essenciais para realizar extensões de unhas com melhor estrutura, resistência acabamento e naturalidade. É indicada para manicures e profissionais da área da beleza que desejam  aprimorar conhecimentos, aperfeiçoar a execução das técnicas e oferecer serviços com mais qualidade, segurança e excelência.',
       areas: ['extensao', 'Extenção de unhas artificiais', 'nailart'], modality: null, workload: null, nextClass: null, seats: null, price: null, certificate: null, checkoutUrl: null },
     { id: 'f-especializacao', level: 'especializacao', title: 'Formação avançada e especialização',
       blurb: 'Para profissionais interessadas em aprofundar uma técnica específica em nível avançado.',
