@@ -33,12 +33,18 @@ window.JOSY = {
   courses: [
     { id: 'f-iniciante', level: 'iniciante', title: 'Formação para quem está começando',
       blurb: 'Caminho para conhecer os fundamentos e iniciar a aprendizagem com acompanhamento.',
+      includes: ['Embelezamento das mãos e dos pés com esmaltação tradicional'],
+      bonus: ['Spa dos pés'],
       areas: ['fundamentos', 'extensao'], modality: null, workload: null, nextClass: null, seats: null, price: null, certificate: null, checkoutUrl: null },
     { id: 'f-aperfeicoamento', level: 'aperfeicoamento', title: 'Formação para quem já trabalha com unhas',
       blurb: 'Eleve seu nível profissional e aperfeiçoe suas habilidades com o curso de extensão de unhas, que foi desenvolvido com uma abordagem teórica e prática, a formação proporcioana desenvolvimento de habilidades essenciais para realizar extensões de unhas com melhor estrutura, resistência, acabamento e naturalidade. É indicada para manicures e profissionais da área da beleza que desejam aprender ou aperfeiçoar a execução das técnicas e oferecer serviços com qualidade.',
+      includes: ['Extensão de unhas com cuticulagem e esmaltação em gel'],
+      bonus: ['Nail art francesinha', 'Blindagem de diamante 💎'],
       areas: ['extensao', 'Extensão de unhas artificiais', 'nailart'], modality: null, workload: null, nextClass: null, seats: null, price: null, certificate: null, checkoutUrl: null },
     { id: 'f-especializacao', level: 'especializacao', title: 'Formação avançada e especialização',
       blurb: 'Formação avançada em extensão de unhas. Foi desenvolvida para manicures e nail designers que desejam apliar habilidades técnicas e se destacar no universo da beleza. Uma formação completa com foco no aperfeiçoamento. Durante a formação, você desenvolverá maior domínio  dos produtos, ferramentas e técnicas. Aprendendo a realizar uma extensão de unha com segurança, precisão e acabamento de excelência.',
+      includes: ['Extensão de unhas + esmaltação em gel', 'Manutenção e remoção segura'],
+      bonus: ['Nail art encapsulada', 'Banho de gel', 'Blindagem de diamante 💎'],
       areas: ['extensao', 'Extensão artificiais', 'nail art encapsulada, francesinha e acabamento profissional'], modality: null, workload: null, nextClass: null, seats: null, price: null, certificate: null, checkoutUrl: null }
   ],
   videos: [
