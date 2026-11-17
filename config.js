@@ -205,7 +205,7 @@ window.JOSY = {
     { q: 'Para quem são as formações?', a: 'Para quem está começando e também para profissionais que desejam se aperfeiçoar — as aulas e cursos de Josy vão do básico ao avançado. Use a trilha Nail para ver o caminho mais compatível.' },
     { q: 'Preciso ter experiência?', a: 'Existem caminhos pensados para iniciantes e para quem já atua. Os pré-requisitos de cada formação são informados pela Josy no atendimento.' },
     { q: 'As aulas são presenciais ou online?', a: 'Modalidade, datas e turmas variam conforme a formação. A Josy passa todos os detalhes diretamente pelo WhatsApp.' },
-    { q: 'Há certificado?', a: 'Pergunte à Josy pelo WhatsApp sobre a certificação da formação que você escolher.' },
+    { q: 'Há certificado?', a: 'Ao finalizar o curso, a aluna receberá o certificado de conclusão com a carga horária correspondente..' },
     { q: 'Quanto custa e como posso pagar?', a: 'Valores e formas de pagamento são informados pela Josy de acordo com a formação escolhida.' },
     { q: 'A formação garante renda ou resultados iguais para todas?', a: 'Não. Nenhuma formação garante renda ou resultado idêntico para todas as alunas. O aprendizado depende de prática, dedicação e do contexto de cada pessoa.' }
   ],
