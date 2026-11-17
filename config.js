@@ -1,7 +1,7 @@
 window.JOSY = {
   demo: false,
   educator: 'Josylene Santos',
-  experienceYears: 26,
+  experienceYears: + de 26,
   contact: {
     whatsapp: '5565993378198',                 // número com DDI+DDD, só dígitos
     whatsappDisplay: '65 9337-8198',          // como o número aparece escrito no site
@@ -46,10 +46,10 @@ window.JOSY = {
     { id:'t08', cat:'extensao',   caption:'Extensão de unhas no molde F1', dur:'0:04' },
     { id:'t02', cat:'extensao',   caption:'Técnica de molde F1 sanduíche', dur:'0:10' },
     { id:'t15', cat:'gel',        caption:'Esmaltação em gel efeito magnético', dur:'0:11' },
-    { id:'t13', cat:'decoracao',  caption:'Técnica baby boomer finalizando com top coat', dur:'0:03' },
-    { id:'t10', cat:'decoracao',  caption:'Decoração francesinha', dur:'0:07' },
-    { id:'t06', cat:'gel',        caption:'Blindagem de diamante', dur:'0:16' },
-    { id:'t01', cat:'gel',        caption:'Esmaltação em gel', dur:'0:47' },
+    { id:'t13', cat:'decoracao',  caption:'Técnica de manicure combinada', dur:'0:03' },
+    { id:'t10', cat:'decoracao',  caption:'Francesinha efeito magnético', dur:'0:07' },
+    { id:'t06', cat:'gel',        caption:'Esmaltação em gel', dur:'0:16' },
+    { id:'t01', cat:'gel',        caption:'Extensão molde F1  ', dur:'0:47' },
     { id:'t09', cat:'gel',        caption:null, dur:'0:16' },
     { id:'t17', cat:'gel',        caption:null, dur:'0:04' },
     { id:'t16', cat:'gel',        caption:null, dur:'0:03' },
