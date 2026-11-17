@@ -36,10 +36,10 @@ window.JOSY = {
       areas: ['fundamentos', 'extensao'], modality: null, workload: null, nextClass: null, seats: null, price: null, certificate: null, checkoutUrl: null },
     { id: 'f-aperfeicoamento', level: 'Aperfeiçoamento', title: 'Formação para quem já trabalha com unhas',
       blurb: 'Eleve seu nível profissional aperfeiçoe suas habilidades em alongamento de Unhas. O curso de aperfeiçoamento de extensão de unhas artificiais foi desenvolvido para manicures e profissionais da área da beleza que desejam  aprimorar seus conheciementos, aperfeiçoar a execução das técnicas e oferecer serviços com mais qualidade, segurança e excelência.',
-      areas: ['extensao', 'acabameno', 'nailart'], modality: null, workload: null, nextClass: null, seats: null, price: null, certificate: null, checkoutUrl: null },
+      areas: ['extensao', 'Extenção de unhas artificiais', 'nailart'], modality: null, workload: null, nextClass: null, seats: null, price: null, certificate: null, checkoutUrl: null },
     { id: 'f-especializacao', level: 'especializacao', title: 'Formação avançada e especialização',
       blurb: 'Para profissionais interessadas em aprofundar uma técnica específica em nível avançado.',
-      areas: ['extensao', 'Extensão artificiais', 'Decoração nas unhas'], modality: null, workload: null, nextClass: null, seats: null, price: null, certificate: null, checkoutUrl: null }
+      areas: ['extensao', 'Extensão artificiais', 'nail art encapsulada, francesinha e acabamento profissional'], modality: null, workload: null, nextClass: null, seats: null, price: null, certificate: null, checkoutUrl: null }
   ],
   videos: [
     { id:'t03', cat:'depoimento', caption:'Depoimento de aluna — Mentoria VIP', dur:'2:41' },
