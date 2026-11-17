@@ -17,7 +17,7 @@ window.JOSY = {
     { id: 'tecnica', label: 'Quero aperfeiçoar uma técnica específica', level: 'especializacao' }
   ],
   areas: [
-    { id: 'Fundamentos', label: 'Fundamentos da formação profissional em embelezamento das mãos e dos pés. Método Manicure Moderna foi desenvolvido para preparar mulheres que desejam ingressar na profissão ou aprimorar suas habilidades, construindo uma carreira com conhecimento técnico, segurança e profissionalismo. Nossa metodologia reúne fundamentos teóricos e práticos essenciais para o exercício da profissão, valorizando a qualidade dos serviços a biossegurança, o atendimento ao cliente e o desenvolvimento profissional.' },
+    { id: 'fundamentos', label: 'Fundamentos da formação profissional em embelezamento das mãos e dos pés. Método Manicure Moderna foi desenvolvido para preparar mulheres que desejam ingressar na profissão ou aprimorar suas habilidades, construindo uma carreira com conhecimento técnico, segurança e profissionalismo. Nossa metodologia reúne fundamentos teóricos e práticos essenciais para o exercício da profissão, valorizando a qualidade dos serviços a biossegurança, o atendimento ao cliente e o desenvolvimento profissional.' },
     { id: 'extensao',    label: 'Extensão de unhas' },
     { id: 'nailart',     label: 'Nail art' },
     { id: 'acabamento',  label: 'Acabamento e técnica' }
