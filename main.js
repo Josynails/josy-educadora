@@ -82,6 +82,20 @@
     const rows = [['Modalidade', c.modality], ['Carga horária', c.workload], ['Próxima turma', c.nextClass], ['Vagas', c.seats], ['Investimento', c.price], ['Certificação', c.certificate]].filter(r => r[1]);
     return rows.length ? `<dl class="specs">${rows.map(r => `<div><dt>${r[0]}</dt><dd>${esc(r[1])}</dd></div>`).join('')}</dl>` : `<p class="course__b">Datas, valores e condições: consulte a Josy pelo WhatsApp.</p>`;
   }
+  function alignCourses() {
+    const cards = [...list.querySelectorAll('.course')];
+    const parts = ['.course__top', 'h3', '.course__b', '.course__inc', '.course__bonus', '.course__areas'];
+    parts.forEach(s => cards.forEach(c => { const e = c.querySelector(s); if (e) e.style.minHeight = ''; }));
+    if (cards.length < 2 || cards[0].offsetLeft === cards[1].offsetLeft) return;
+    parts.forEach(s => {
+      const els = cards.map(c => c.querySelector(s)).filter(Boolean);
+      if (els.length < 2) return;
+      const h = Math.max(...els.map(e => e.offsetHeight));
+      els.forEach(e => { e.style.minHeight = h + 'px'; });
+    });
+  }
+  addEventListener('resize', () => alignCourses());
+  addEventListener('load', () => alignCourses());
   function renderCourses(hl) {
     const arr = C.courses.filter(c => currentLevel === 'todas' || c.level === currentLevel);
     if (!arr.length) { list.innerHTML = `<p class="lead">Ainda não há formação cadastrada neste nível. Fale com a educadora para receber orientação.</p>`; return; }
@@ -98,6 +112,7 @@
           ? `<a class="btn" href="${esc(c.checkoutUrl)}" target="_blank" rel="noopener">Fazer minha inscrição</a>`
           : `<button class="btn" data-want="${c.id}" type="button">Falar com a Josy</button>`}
       </article>`).join('');
+    alignCourses();
     if (hasGsap && !reduce) gsap.from('.course', { opacity: 0, y: 30, duration: .8, stagger: .1, ease: 'power3.out' });
   }
   tabs.addEventListener('click', e => {
