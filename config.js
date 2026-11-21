@@ -76,7 +76,7 @@ window.JOSY = {
     description: 'Conheça as formações profissionais de Josy Santos, educadora nail com 26 anos de experiência na área de manicure. Do básico ao avançado.'
   },
   texts: {
-    'hero.eyebrow': 'A arte de dominar as unhas',
+    'hero.eyebrow': 'A arte de transformar unhas em expressão de beleza, técnica e confinça',
     'hero.sub': 'Conheça as formações e técnicas ensinadas por Josy Santos, educadora nail com uma trajetória construída ao longo de 26 anos de experiência na área.',
     'proximo-passo.eyebrow': 'Para quem são as formações',
     'proximo-passo.title': 'Qual é o seu *próximo passo?*',
