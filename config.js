@@ -72,7 +72,7 @@ window.JOSY = {
      Troque só o que estiver entre aspas. Use *palavra* para o destaque em letra
      artística e **palavra** para negrito. \n quebra a linha. */
   meta: {
-    title: 'Josy Santos Educadora Nail — Formações profissionais em Nail',
+    title: '*JOSY SANTOS EDUCADORA NAIL — Formações profissionais para Manicures e Nail Designrs',
     description: 'Conheça as formações profissionais de Josy Santos, educadora nail com 26 anos de experiência na área de manicure. Do básico ao avançado.'
   },
   texts: {
